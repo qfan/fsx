@@ -48,6 +48,8 @@ USAGE
 -----
 Start FSX. Now run the scripts. On 64 bit OS use the 32 bit (x86) version of PowerShell. This is because SIMCONNECT library and FSX are 32 bit apps.
 
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
 * fsxSimConnect.ps1
 
    This script provides the interface to FSX via SIMCONNECT and is the basis for all other scripts

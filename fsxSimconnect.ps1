@@ -1,4 +1,5 @@
 # Path where script is located
+$ErrorActionPreference = "Stop"
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 # If running on 64 bit OS make sure that 32 bit version of PowerShell is being used
